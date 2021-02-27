@@ -1,0 +1,30 @@
+
+.ExpBar{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ExpBar span{    
+    font-size: 1rem;
+}
+
+.bar{
+    flex: 1;
+    height: 4px;
+    background: var(--gray-line);
+    border-radius: 4px;
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+.exp {
+    height: 4px;
+    border-radius: 4px;
+    background: var(--green);
+}
+
+.bar > span{
+    position: absolute;
+
+    transform: translateX(-50%);
+}

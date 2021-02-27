@@ -1,0 +1,21 @@
+.CompChallsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+    margin: 3.5rem 0;
+    padding-bottom: 1rem;
+
+    border-bottom: 1px solid #d7d8da;
+    font-weight: 500;
+}
+
+.CompChallsContainer span:first-child {
+    font-size: 1.25rem;
+    
+}
+.CompChallsContainer span:last-child {
+    font-size: 1.5rem;
+    
+}

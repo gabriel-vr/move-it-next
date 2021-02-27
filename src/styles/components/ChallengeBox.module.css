@@ -1,0 +1,106 @@
+.ChallengeBoxContainer{
+    height: 100%;
+
+    background-color: var(--white);
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.startCicle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.startCicle strong{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.5rem;
+}
+.startCicle p{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.startCicle p img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.Challenge{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.Challenge header{
+    text-align: center;
+    color: var(--blue);
+    padding: 0 2rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--gray-line);
+}
+
+.Challenge main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Challenge main img{
+    height: 40%;
+    width: 60%;
+}
+
+.Challenge main strong{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+
+.Challenge footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.Challenge footer button{
+    padding: 1rem 2rem;
+    color: var(--white);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.Challenge footer button:hover{
+    filter: brightness(0.8);
+}
+
+
+.Challenge footer button:first-child{
+    background-color: var(--red);
+    
+}
+
+.Challenge footer button:last-child{
+    background-color: var(--green);
+}
