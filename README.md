@@ -11,4 +11,4 @@ After you complete the challenge, you will get a amount of XP, so you can improv
 In the future, i will add a functionality where you can compare your evolution with other users and share it.
 
 ## Link to the website
-[my app](https://moveitnextgabrielvr.vercel.app/)
+[My app](https://moveitnextgabrielvr.vercel.app/)
